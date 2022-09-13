@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(
+    rgba(74, 33, 236.5),
+    rgba(18, 206, 149, 0.5)),
+    url("../Gallery/1.png")
+;
+  /* overflow-x: hidden; */
+  background-size: cover;
+  background-position: center;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.counter-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter-section .counter-box {
+    width: calc(25% - 20px);
+    text-align: center;
+    color: #fff;
+}
+.counter-section .counter-box svg {
+    font-size: 60px;
+    color: #faa000;
+}
+.counter-section .counter-box .counter {
+    font-size: 30px;
+    padding: 20px 0;
+}
+.counter-section .counter-box p {
+    font-size: 25px;
+}
